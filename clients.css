@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+*{
+  font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  -webkit-box-shadow: inset 1px 1px 2px #E0E0E0;
+  border: 1px solid #D8D8D8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #646464;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(155, 155, 155, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #888;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:200; font-size:22px; line-height:24px; padding: 50px;}
+#parallax-world-of-ugg .li {font-family:'Source Sans Pro', sans-serif; font-weight:200; font-size:22px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;color: #262626;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/inv.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 300px; padding-bottom: 300px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/ernst-and-young.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 300px; padding-bottom: 300px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/Frans-Indongo-Group-Logo-.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/abb.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/Grant\ Thornton\ Neuhaus.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/CapX\ Namibia.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(./images/Ad\ hoc\ Clients.jfif); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:3.5px solid rgb(121, 233, 121); width: 150px; margin:0 auto;border-radius: 3px;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+.nav {
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    padding:5px;
+    background-color:#262626;
+    z-index:999;
+  }
+  /*Navbar*/
+  .navigation {
+      height: 70px;
+      background: #262626;
+    }
+    
+    .brand {
+      position: absolute;
+      padding-left: 20px;
+      float: left;
+      line-height: 70px;
+      text-transform: uppercase;
+      font-size: 1.4em;
+    }
+    .brand a,
+    .brand a:visited {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    .nav-containerss {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    nav {
+      float: right;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      float: left;
+      position: relative;
+    }
+    nav ul li a,
+    nav ul li a:visited {
+      display: block;
+      padding: 0 20px;
+      line-height: 70px;
+      background: #262626;
+      color: #ffffff;
+      text-decoration: none !important;
+    }
+    nav ul li a:hover,
+    nav ul li a:visited:hover {
+      background: rgba(0, 0, 0, 1);
+      color: #ffffff;
+    }
+    nav ul li a:not(:only-child):after,
+    nav ul li a:visited:not(:only-child):after {
+      padding-left: 4px;
+      content: " ▾";
+    }
+    nav ul li ul li {
+      min-width: 190px;
+    }
+    nav ul li ul li a {
+      padding: 15px;
+      line-height: 20px;
+    }
+    
+    .nav-dropdown {
+      position: absolute;
+      display: none;
+      z-index: 1;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Mobile navigation */
+    .nav-mobile {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #262626;
+      height: 70px;
+      width: 70px;
+    }
+    
+    @media only screen and (max-width: 800px) {
+      .nav-mobile {
+        display: block;
+        
+      }
+    
+      nav {
+        width: 100%;
+        padding: 70px 0 15px;
+        }
+      nav ul {
+        display: none;
+      }
+      nav ul li {
+        float: none;
+        z-index:1000;
+      }
+      nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+        text-decoration: none;
+        z-index: 1000;
+      }
+      nav ul li ul li a {
+        padding-left: 30px;
+      }
+    
+      .nav-dropdown {
+        position: static;
+      }
+    }
+    @media screen and (min-width: 800px) {
+      .nav-list {
+        display: block !important;
+      }
+    }
+    #nav-toggle {
+      position: absolute;
+      left: 18px;
+      top: 22px;
+      cursor: pointer;
+      padding: 10px 35px 16px 0px;
+    }
+    #nav-toggle span,
+    #nav-toggle span:before,
+    #nav-toggle span:after {
+      cursor: pointer;
+      border-radius: 1px;
+      height: 5px;
+      width: 35px;
+      background: #ffffff;
+      position: absolute;
+      display: block;
+      content: "";
+      transition: all 300ms ease-in-out;
+    }
+    #nav-toggle span:before {
+      top: -10px;
+    }
+    #nav-toggle span:after {
+      bottom: -10px;
+    }
+    #nav-toggle.active span {
+      background-color: transparent;
+    }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0;
+    }
+    #nav-toggle.active span:before {
+      transform: rotate(45deg);
+    }
+    #nav-toggle.active span:after {
+      transform: rotate(-45deg);
+    }    
+    #nav-toggle {
+      position: absolute;
+      left: 18px;
+      top: 22px;
+      cursor: pointer;
+      padding: 10px 35px 16px 0px;
+    }
+    #nav-toggle span,
+    #nav-toggle span:before,
+    #nav-toggle span:after {
+      cursor: pointer;
+      border-radius: 1px;
+      height: 5px;
+      width: 35px;
+      background: #ffffff;
+      position: absolute;
+      display: block;
+      content: "";
+      transition: all 300ms ease-in-out;
+    }
+    #nav-toggle span:before {
+      top: -10px;
+    }
+    #nav-toggle span:after {
+      bottom: -10px;
+    }
+    #nav-toggle.active span {
+      background-color: transparent;
+    }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0;
+    }
+    #nav-toggle.active span:before {
+      transform: rotate(45deg);
+    }
+    #nav-toggle.active span:after {
+      transform: rotate(-45deg);
+    }
+  
+  /*==================================================
+  =            Bootstrap 3 Media Queries             =
+  ==================================================*/
+  
+  
+  /*==========  Mobile First Method  ==========*/
+  
+  
+  /* Large Devices, Wide Screens */
+  @media (max-width: 2560px) {
+
+    }
+      /* Medium Devices, Desktops */
+      @media (max-width: 992px) {
+        nav {
+          height: 64px;
+        }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 8px 5px;
+        font-size: 10px;
+    }
+      }
+      /* Small Devices, Tablets */
+      @media (max-width: 767px) {
+        nav {
+          padding: 10px 30px;
+          height: 64px;
+        }
+        nav .logo {
+          max-width: 150px;
+        }
+      }
+      /* Extra Small Devices, Phones */
+      @media (max-width: 480px) {
+        nav {
+        padding: 10px 15px;
+        height: 64px;
+    }
+        .navbar-brand {
+          float:none;
+        }
+        .navbar-brand .logo.color {
+          margin:0 auto;
+          padding-top:8px
+        }}

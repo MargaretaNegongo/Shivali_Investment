@@ -1,0 +1,152 @@
+
+.header{
+   width:100%;
+   height:50%;
+   background-color:rgb(121, 233, 121) ;
+   background-image:url('https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80');
+   background-size:cover;
+   /* background-position:bottom; */
+}
+.containersss{
+   width:100%;
+}
+.containersss h1{
+   font-size:50px
+}
+.aboutss{
+   padding:5% 0;
+   width:100%;
+   height:auto;
+   background-color:#fff;
+}
+.aboutss .leftss{
+   padding:2% 0;
+   float:left;
+   width:50%;
+   display:inline-block;
+}
+.aboutss .rightss{
+   width:50%;
+   display:inline-block;
+}
+.aboutss .rightss img{
+   width:auto;
+   height: 800px;
+   margin-top: 0;
+   border-radius: 7px 0px 0px 7px ;
+}
+.aboutss .leftss h1{
+   text-align:center;
+   color:#000000;
+   margin:0 0 10px 0;
+}
+/* .aboutss .leftss .hrs{
+   width:20%;
+   border-top:2px solid rgb(121, 233, 121) ;
+   border-bottom:none;
+} */
+.aboutss .leftss p{
+   font-size:1.9rem;
+   margin:40px auto;
+   width:80%
+}
+
+.missionss{
+   padding:5% 0;
+   width:100%;
+   height:auto;
+   background-color:#fff;
+}
+.missionss .rightss{
+   padding:2% 0;
+   width:50%;
+
+   display:inline-block;
+}
+.missionss .leftss{
+   float:left;
+   width:50%;
+
+   display:inline-block;
+}
+.missionss .leftss img{
+   width:100%;
+   border-radius: 0px 7px 7px 0px ;
+}
+.missionss .rightss h1{
+   text-align:center;
+   color:rgb(0, 0, 0) ;
+   margin:0 0 20px 0;
+}
+/* .missionss .rightss hr{
+   width:35%;
+   border-top:2px solid rgb(121, 233, 121) ;
+   border-bottom:none;
+} */
+.missionss .rightss p{
+   font-size:1.9rem;
+   margin:40px auto;
+   width:80%
+}
+
+.circle-containersss h1{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   margin:0;
+   font-size:60px;
+}
+.clear{
+    clear: both;      
+}
+
+
+
+
+
+
+
+/* media */
+@media(max-width:1200px){
+   .missionss .rightss p{
+      font-size:1.8rem;
+      margin:20px auto;
+   }
+   .aboutss .leftssss p{
+      font-size:.8rem;
+      margin:20px auto;
+   }
+}
+
+
+
+
+
+
+@media(max-width:992px){
+   .aboutss .leftss{
+   width:100%; 
+}
+   .aboutss .rightss{
+   width:100%; 
+}
+      .missionss .leftss{
+   width:100%; 
+}
+   .missionss .rightss{
+   width:100%; 
+}
+   .team .card{ 
+   width:40%;
+}   
+}
+
+@media(max-width:768px){
+      .team .card{ 
+   width:100%;
+} 
+}
+
+
+
